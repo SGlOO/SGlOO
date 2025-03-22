@@ -1,0 +1,32 @@
+name: Generate snake game
+
+on:
+  schedule: # execute every 12 hours
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Jobs to update datas
+    runs-on: ubuntu-latest
+    steps:
+      # Snake Animation
+      - name: Generate Snake SVG
+        uses: SGlOO/snk@master # 👈 confirm branch name (main vs master)
+        id: snake-gif
+        with:
+          github_user_name: SGlOO
+          svg_out_path: dist/github-contribution-grid-snake2.svg
+          snake_color: 'blue'
+
+      # Deploy to GitHub Pages (output branch)
+      - name: Deploy to GitHub Pages
+        uses: SGlOO/ghaction-github-pages@master # 👈 confirm branch name (main vs master)
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
