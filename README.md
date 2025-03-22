@@ -1,4 +1,4 @@
-### Hi there 👋
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=HI+THERE)](https://git.io/typing-svg)
 * 👂 My name is SGlOOOO
 * 🔭 I’m currently working on my I3 configs
 * 🌱 I’m currently learning HTML...
