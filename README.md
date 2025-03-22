@@ -16,15 +16,8 @@
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=SGlOO&show_icons=true&theme=nord)
 
-<div>
-  <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SGlOO/SGlOO/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SGlOO/SGlOO/output/github-contribution-grid-snake.svg">
-  <img alt="snake animation" src="https://raw.githubusercontent.com/SGlOO/SGlOO/output/github-contribution-grid-snake.svg">
-  </picture>
-  
-  <!--
-  <img src="https://activity-graph.herokuapp.com/graph?username=ivansaul&theme=react-dark&bg_color=20232a&hide_border=true" width="80%"/>
-  -->
-</div>
-
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
+  <img alt="github-snake" src="github-snake.svg" />
+</picture>
