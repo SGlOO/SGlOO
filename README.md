@@ -16,4 +16,4 @@
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=SGlOO&show_icons=true&theme=nord)
 
-![Snake animation](https://github.com/SGlOO/SGlOO/blob/output/github-contribution-grid-snake.svg)
+![snake animation](https://github.com/<SGlOO>/<sSGlOO>/blob/output/github-contribution-grid-snake2.svg)
